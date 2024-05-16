@@ -12,12 +12,17 @@ This repository contains a client-side web application for a home design store. 
 2. Navigate to the project folder:
 
    ```bash
-   cd home-design-store-frontend
+   HomeDesignFrontend
 
 3. Open `index.html` in a web browser
    
 ### Usage
 Simply navigate through the pages to browse and select products.<br>
+
+### Screenshots
+<br>
+Home Page:
+![Screenshot 1](screenshots/home page.png)
 
 ### Contributing
 Contributions are welcome! To contribute:<br>
