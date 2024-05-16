@@ -1,0 +1,454 @@
+.logo {
+    padding-top: 1%;
+}
+
+.topnav {
+    padding-top: 0.2%;
+    position: sticky;
+    top: 0;
+    height: 4vw;
+    justify-content: center;
+    background-color: white;
+}
+
+nav {
+    margin-top: 1%;
+    margin-left: 0%;
+    padding-bottom: 4%;
+}
+
+.our {
+    margin-top: 6%;
+    margin-bottom: 0%;
+    line-height: 0.85;
+    font-size: 6vw;
+    font-family: title;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.slogen {
+    margin-top: 0%;
+    line-height: 0;
+    font-weight: lighter;
+    font-size: 2vw;
+    font-family: slogen_font;
+    text-align: center;
+    color: rgb(85, 124, 134);
+}
+
+.sofa {
+    display: grid;
+    grid-template-columns: 4;
+}
+
+.sofa img {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.sofa1 {
+    grid-column: 1;
+}
+
+.sofa2 {
+    grid-column: 2;
+}
+
+.sofa3 {
+    grid-column: 3;
+}
+
+.sofa4 {
+    grid-column: 4;
+}
+
+.categories a {
+    font-family: c-nav;
+    text-decoration: none;
+    font-size: 1.6vw;
+    padding: 8%;
+}
+
+.categories {
+    padding-top: 0%;
+    text-align: center;
+}
+
+.classic {
+    color: rgb(85, 124, 134);
+}
+
+.modern {
+    color: rgb(205, 160, 63);
+}
+
+.antique {
+    color: rgb(150, 106, 106);
+}
+
+.royal {
+    color: black;
+}
+
+.res_sofa {
+    display: none;
+}
+
+.great {
+    width: 100%;
+    margin: 8% 0% 6.5% 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+.great1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 0;
+    font-size: 4vw;
+    margin: 0%;
+    width: 55%;
+}
+
+.great1 img {
+    width: 70%
+}
+
+.great2 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    font-size: 5vw;
+    align-items: center;
+}
+
+.gimg {
+    height: 100%;
+    width: 80%;
+}
+
+#p {
+    margin: 2%;
+    text-align: center;
+    color: rgb(80, 77, 77);
+}
+
+div.gimg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: gimg 15s linear infinite;
+}
+
+@keyframes gimg {
+    20% {
+        background-image: url("../pictures/g1.png");
+    }
+
+    40% {
+        background-image: url("../pictures/g2.png");
+    }
+
+    60% {
+        background-image: url("../pictures/g3.png");
+    }
+
+    80% {
+        background-image: url("../pictures/g4.png");
+    }
+
+    100% {
+        background-image: url("../pictures/g5.png")
+    }
+}
+
+.tep {
+    line-height: 0.8;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: slogen_font;
+    font-weight: lighter;
+    font-size: 3vw;
+    color: rgb(223, 188, 177);
+}
+
+.tep2 {
+    line-height: 0.8;
+    margin-top: 0.8%;
+    font-size: 4.5vw;
+    font-family: title;
+}
+
+.inspire {
+    font-size: 5vw;
+    color: rgb(116, 106, 69);
+    font-family: title;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.video1 {
+    margin: 0% 10% 10% 10%;
+    border-radius: 5%;
+}
+
+#sale {
+    width: 100%;
+    height: 60vw;
+}
+
+div#sale {
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: sale 20s linear 0s infinite alternate;
+}
+
+@keyframes sale {
+    0% {
+        background-image: url("../pictures/sale.png");
+    }
+
+    50% {
+        background-image: url("../pictures/sale2.png");
+    }
+
+    100% {
+        background-image: url("../pictures/sale.png");
+    }
+}
+
+
+
+input {
+    margin: 2%;
+    width: 50%;
+    text-align: center;
+    color: rgba(122, 105, 10, 0.767);
+    border-radius: 0px;
+    margin-left: 0%;
+}
+
+.signin {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vw;
+}
+
+.sign1 {
+    display: flex;
+    width: 20%;
+}
+
+.sign2 {
+    display: flex;
+    width: 25%;
+}
+
+.sign3 {
+    display: flex;
+    width: 30%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 45%;
+    width: 100%;
+}
+
+
+input {
+    padding: 0%;
+    margin: 2%;
+    width: 50%;
+    text-align: center;
+    color: rgba(122, 105, 10, 0.767);
+    border-radius: 0px;
+    height: 2vw;
+    text-justify: center;
+}
+
+.send {
+    padding: 0%;
+    margin: 2%;
+    width: 51.4%;
+    background-color: black;
+    color: rgb(158, 138, 27);
+    font-size: 1vw;
+    border-radius: 0px;
+    height: 2vw;
+}
+
+::placeholder {
+    color: rgb(158, 138, 27);
+    font-size: 1vw;
+}
+
+.sign4 {
+    display: flex;
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px) {
+    .topnav {
+        display: flex;
+        padding-top: 5%;
+        padding-right: 4%;
+        padding-bottom: 2%;
+        position: relative;
+        padding-bottom: 10%;
+    }
+
+    .our {
+        font-size: 10vw;
+    }
+
+    .slogen {
+        font-size: 4vw;
+        font-weight: normal;
+    }
+
+    .sofa {
+        display: none;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .res_sofa {
+        display: grid;
+        grid-template-rows: 4;
+    }
+
+    .res1,
+    .res2,
+    .res3,
+    .res4 {
+        display: grid;
+    }
+
+    .res_sofa img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .res1 {
+        grid-row: 1;
+    }
+
+    .res2 {
+        grid-row: 2;
+    }
+
+    .res3 {
+        grid-row: 3;
+    }
+
+    .res4 {
+        grid-row: 4;
+    }
+
+    .great {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .great1 {
+        width: 100%;
+        margin-top: 15%;
+        flex-direction: column-reverse;
+        font-size: 40px;
+    }
+
+    .tep {
+        font-size: 8vw;
+        line-height: 0.75;
+    }
+
+    .tep2 {
+        font-size: 12vw;
+        margin-bottom: 10%;
+    }
+
+    .great1 img {
+        width: 80%;
+    }
+
+    #p {
+        font-size: 12vw;
+        margin: 15% 0% 5% 0%;
+    }
+
+    .great2 {
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    .inspire{
+        font-size:4vw ;
+    }
+    .signin {
+        height: 45vw;
+    }
+
+    .sign1,
+    .sign4 {
+        display: none;
+    }
+
+    .sign2 {
+        width: 35vw;
+        justify-content: flex-end;
+    }
+
+    .sign3 {
+        width: 40vw;
+    }
+
+    .container {
+        margin-bottom: 20%;
+        align-items: center;
+    }
+
+    .sign2 img {
+        width: 50%;
+    }
+
+    .sign3 img {
+        width: 80%;
+    }
+    input{
+        width: 70%;
+        height: 10%;
+    }
+    ::placeholder{
+        font-size: 2vw;
+    }
+    .send{
+        width: 73%;
+        height: 12%;
+        font-size: 2vw;
+    }
+
+    div.gimg {
+        height: 80vw;
+    }
+
+    .inspire {
+        font-size: 6vw;
+    }
+
+    .video1 {
+        width: 92%;
+        margin: 0% 4% 15% 4%;
+    }
+    
+
+}

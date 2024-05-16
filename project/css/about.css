@@ -1,0 +1,45 @@
+.about {
+    font-family: about;
+    color: rgb(157, 140, 98);
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: about-t;
+    color: rgb(127 145 159);
+    ;
+    margin-bottom: 0%;
+    margin-top: 6%;
+}
+
+.par {
+    margin-top: 0.5%;
+    font-size: 25px;
+    text-align: center;
+    font-family: about-p;
+    color: rgb(124, 115, 115);
+    line-height: 1.5;
+}
+
+.b {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 600px) {
+    .about,
+    #start,
+    #today {
+        font-size: 10vw;
+    }
+    .b {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .par {
+        font-size: 18px;
+    }
+}

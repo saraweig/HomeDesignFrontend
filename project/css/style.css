@@ -1,0 +1,402 @@
+@font-face {
+    font-family: nav_font;
+    src: url("../fonts/nav.otf");
+}
+
+@font-face {
+    font-family: title;
+    src: url("../fonts/our-collection.otf");
+}
+
+@font-face {
+    font-family: slogen_font;
+    src: url("../fonts/slogen.ttf");
+}
+
+@font-face {
+    font-family: c-nav;
+    src: url("../fonts/c_nav.otf");
+}
+
+@font-face {
+    font-family: about-t;
+    src: url("../fonts/about-title.otf");
+}
+
+@font-face {
+    font-family: about-p;
+    src: url("../fonts/about-paragraph.otf");
+}
+
+@font-face {
+    font-family: about;
+    src: url("../fonts/ploni-round-bold-aaa.otf");
+}
+
+.menu {
+    display: none;
+}
+
+.logo {
+    width: 9%;
+    height: 30%;
+    float: left;
+}
+
+.topnav {
+    margin-top: 1.5%;
+    padding-left: 8%;
+}
+
+nav {
+    text-align: center;
+    width: 83%;
+}
+
+nav a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-family: nav_font;
+    padding: 1% 2.5%;
+}
+
+.c_title {
+    margin-top: 10%;
+    font-family: title;
+    text-align: center;
+    font-size: 9vw;
+    font-weight: lighter;
+    line-height: 0;
+    margin-bottom: 5%;
+}
+
+.c_slogen {
+    margin-top: 2%;
+    font-family: slogen_font;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: lighter;
+    line-height: 0;
+    margin-bottom: 8%;
+}
+
+footer {
+    width: 100%;
+    height: 42vw;
+    background-color: rgb(4, 35, 35);
+    margin-top: 8vw;
+}
+
+.logog img {
+    width: 8%;
+}
+
+.news {
+    display: flex;
+    padding: 0% 1%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.new {
+    color: white;
+    font-family: about-t;
+    margin-top: 0.5%;
+    font-size: 1vw;
+}
+
+.logog {
+    padding-top: 4%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailf {
+    align-self: start;
+    width: 20%;
+    height: 2.5vw;
+    font-size: 1vw;
+    color: rgb(4, 35, 35);
+    border-color: white;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.sendf {
+    width: 8%;
+    height: 3vw;
+    font-size: 1vw;
+    color: white;
+    border-color: white;
+    background-color: rgb(4, 35, 35);
+    margin-top: 0%;
+}
+
+.tf {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+table {
+    margin-left: 12%;
+    align-items: center;
+    padding: 3%;
+    width: 50%;
+}
+
+th,
+.ourl {
+    font-size: 2vw;
+    font-family: title;
+    font-weight: lighter;
+    color: rgb(229, 210, 162);
+    text-align: left;
+    margin-top: 30%;
+}
+
+td a {
+    text-decoration: none;
+    font-family: c-nav;
+    color: darkgrey;
+
+}
+
+td,
+.design {
+    font-size: 1vw;
+    font-family: c-nav;
+    color: darkgray;
+    padding: 2%;
+    padding-left: 0%;
+    width: 45%;
+}
+
+.iframe {
+    width: 80%;
+    height: 10vw;
+    background-color: white;
+}
+
+.olif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.ourl {
+    margin: 0% 0% 5.5% 0%;
+    justify-self: start;
+    height: 100%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.icon img {
+    width: 50%;
+}
+
+.icon a {
+    width: 20%;
+}
+
+#l3 {
+    width: 30%;
+}
+
+.design {
+    width: 20%;
+    justify-self: start;
+    margin-left: 21%;
+}
+
+.iconf {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input {
+    margin: 2%;
+    width: 80%;
+    text-align: center;
+    color: rgba(122, 105, 10, 0.767);
+    border-radius: 0px;
+}
+
+@media only screen and (max-width:600px) {
+    .menu:focus .nv2 {
+        display: block;
+    }
+
+
+    ul {
+        list-style-type: none;
+        padding: 0%;
+        margin-top: 10%;
+        height: 38vw;
+    }
+
+    li {
+        padding: 4%;
+    }
+
+    li a {
+        font-size: 15px;
+        line-height: 1.5;
+
+    }
+
+    .topnav {
+        display: flex;
+        padding-top: 5%;
+        padding-right: 4%;
+        padding-bottom: 2%;
+        position: relative;
+        padding-bottom: 10%;
+    }
+
+    .topnav {
+        display: flex;
+
+    }
+
+    .nv1 {
+        visibility: hidden;
+    }
+
+    .nv2 {
+        position: absolute;
+        right: 5px;
+        background-color: rgba(128, 128, 128, 0.541);
+        width: 25vw;
+        height: 35vw;
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        background-color: white;
+        border: 0;
+        float: right;
+        width: 7vw;
+        height: 4vw;
+    }
+
+    .logo {
+        width: 28vw;
+        height: 6vw;
+    }
+
+    .new {
+        font-size: 2vw;
+    }
+
+    .c_title {
+        font-size: 15vw;
+    }
+
+    .c_slogen {
+        font-size: 7vw;
+    }
+
+    .logog img {
+        width: 16%;
+    }
+
+    .olif {
+        display: none;
+    }
+
+    table {
+        margin: 0%;
+        padding: 1%;
+        width: 80%;
+    }
+th{
+    font-size: 2.5vw;
+}
+    td a {
+        width: 80%;
+    }
+  
+    input{
+        width: 70%;
+        height: 10%;
+    }
+    ::placeholder{
+        justify-self: center;
+        font-size: 2vw;
+        color: rgb(158, 138, 27);
+    }
+    .sendf{
+        width: 10%;
+        height:4vw;
+        font-size: 2vw;
+
+    }
+
+
+    td,
+    .design {
+        font-size: 1.3vw;
+
+    }
+
+
+    td {
+        font-size: 2.5vw;
+        padding: 1.5%;
+        padding-left: 0%;
+    }
+
+    .design,
+    .icon {
+        margin: 0%;
+    }
+
+    .design {
+        font-size: 1.5vw;
+        width: 25%;
+    
+    }
+
+    .emailf {
+        height: 3vw;
+        width: 30vw;
+    }
+
+
+
+    footer {
+        height: 60vw;
+    }
+    .icon{
+        width: 30%;
+    }
+
+    .iconf {
+        padding-top: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 20%;
+        align-items: center;
+
+    }
+}
