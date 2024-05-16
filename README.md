@@ -21,9 +21,9 @@ Simply navigate through the pages to browse and select products.<br>
 
 ### Screenshots
 Home Page:
-<img src="project/screenshots/homepage.png" alt="home page" width="400" height="300"><br>
+<img src="project/screenshots/homepage.png" alt="home page" width="600" height="400"><br>
 Site Map:
-<img src="project/screenshots/sitemap.png" alt="site map" width="400" height="300">
+<img src="project/screenshots/sitemap.png" alt="site map" width="600" height="400">
 
 ### Contributing
 Contributions are welcome! To contribute:<br>
