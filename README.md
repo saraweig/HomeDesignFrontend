@@ -20,10 +20,12 @@ This repository contains a client-side web application for a home design store. 
 Simply navigate through the pages to browse and select products.<br>
 
 ### Screenshots
-Home Page:
+
+<h6>Home Page:</h6><br>
 <img src="project/screenshots/homepage.png" alt="home page" width="600" height="400"><br>
-Site Map:
-<img src="project/screenshots/sitemap.png" alt="site map" width="600" height="400">
+<br>
+<h6>Site Map:</h6><br>
+<img src="project/screenshots/sitemap.png" alt="site map" width="600" height="400"><br>
 
 ### Contributing
 Contributions are welcome! To contribute:<br>
