@@ -21,10 +21,10 @@ Simply navigate through the pages to browse and select products.<br>
 
 ### Screenshots
 
-![Home Page](screenshots/home page.png)
-![Product Listing](screenshots/browsing.png)
-![Sign-in](screenshots/sign in form.png)
-![Site Map](screenshots/site map.png)
+![Home Page](project/screenshots/home page.png)
+![Product Listing](project/screenshots/browsing.png)
+![Sign-in](project/screenshots/sign in form.png)
+![Site Map](project/screenshots/site map.png)
 
 ### Contributing
 Contributions are welcome! To contribute:<br>
