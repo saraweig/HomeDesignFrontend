@@ -14,7 +14,7 @@ This repository contains a client-side web application for a home design store. 
    ```bash
    HomeDesignFrontend
 
-3. Open `index.html` in a web browser
+3. Open `home.html` in a web browser
    
 ### Usage
 Simply navigate through the pages to browse and select products.<br>
